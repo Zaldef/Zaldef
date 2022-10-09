@@ -1,0 +1,620 @@
+[
+    {
+        "Pokedex": "001", 
+        "Nome": "Bulbasuar",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "002", 
+        "Nome": "Ivysaur",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "003", 
+        "Nome": "Venusaur",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "004", 
+        "Nome": "Charmander",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "005", 
+        "Nome": "Charmeleon",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "006", 
+        "Nome": "Charizard",
+        "Tipo": "Fogo/Voador"
+    },{
+        "Pokedex": "007", 
+        "Nome": "Squitle",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "008", 
+        "Nome": "Wartotle",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "009", 
+        "Nome": "Blastoise",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "010", 
+        "Nome": "Caterpie",
+        "Tipo": "Inseto"
+    },{
+        "Pokedex": "011", 
+        "Nome": "Metapod",
+        "Tipo": "Inseto"
+    },{
+        "Pokedex": "012", 
+        "Nome": "Butterfree",
+        "Tipo": "Inseto/Voador"
+    },{
+        "Pokedex": "013", 
+        "Nome": "Weedle",
+        "Tipo": "Inseto/Veneno"
+    },{
+        "Pokedex": "014", 
+        "Nome": "Kakuna",
+        "Tipo": "Inseto/Veneno"
+    },{
+        "Pokedex": "015", 
+        "Nome": "Beedril",
+        "Tipo": "Inseto/Veneno"
+    },{
+        "Pokedex": "016", 
+        "Nome": "Pidgey",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "017", 
+        "Nome": "Pidgeotto",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "018", 
+        "Nome": "Pidgeot",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "019", 
+        "Nome": "Rattata",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "020", 
+        "Nome": "Raticate",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "021", 
+        "Nome": "Spearow",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "022", 
+        "Nome": "Fearow",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "023", 
+        "Nome": "Ekans",
+        "Tipo": "Veneno"
+    },{
+        "Pokedex": "024", 
+        "Nome": "Arbok",
+        "Tipo": "Veneno"
+    },{
+        "Pokedex": "025", 
+        "Nome": "Pikachu",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "026", 
+        "Nome": "Raichu",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "027", 
+        "Nome": "Sandshrew",
+        "Tipo": "Terrestre"
+    },{
+        "Pokedex": "028", 
+        "Nome": "Sandslash",
+        "Tipo": "Terrestre"
+    },{
+        "Pokedex": "029", 
+        "Nome": "Nidoran",
+        "Tipo": "Veneno",
+        "Sexo": "Fêmea"
+    },{
+        "Pokedex": "030", 
+        "Nome": "Nidorina",
+        "Tipo": "Veneno"   
+    },{
+        "Pokedex": "031", 
+        "Nome": "Nidoqueen",
+        "Tipo": "Veneno/Terrestre"
+    },{
+        "Pokedex": "032", 
+        "Nome": "Nidoran",
+        "Tipo": "Veneno",
+        "Sexo": "Macho"
+    },{
+        "Pokedex": "033", 
+        "Nome": "Nidorino",
+        "Tipo": "Veneno"
+    },{
+        "Pokedex": "034", 
+        "Nome": "Nidoking",
+        "Tipo": "Veneno/Terrestre"
+    },{
+        "Pokedex": "035", 
+        "Nome": "Clefairy",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "036", 
+        "Nome": "Clefable",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "037", 
+        "Nome": "Vulpix",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "038", 
+        "Nome": "Ninetales",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "039", 
+        "Nome": "Jigglypuff",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "040", 
+        "Nome": "Wigglytuff",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "041", 
+        "Nome": "Zubat",
+        "Tipo": "Veneno/Voador"
+    },{
+        "Pokedex": "042", 
+        "Nome": "Golbat",
+        "Tipo": "Veneno/Voador"
+    },{
+        "Pokedex": "043", 
+        "Nome": "Oddish",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "044", 
+        "Nome": "Gloom",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "045", 
+        "Nome": "Vileplume",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "046", 
+        "Nome": "Paras",
+        "Tipo": "Inseto/Grama"
+    },{
+        "Pokedex": "047", 
+        "Nome": "Parasect",
+        "Tipo": "Inseto/Grama"
+    },{
+        "Pokedex": "048", 
+        "Nome": "Venonat",
+        "Tipo": "Inseto/Veneno"
+    },{
+        "Pokedex": "049", 
+        "Nome": "Venomoth",
+        "Tipo": "Inseto/Veneno"
+    },{
+        "Pokedex": "050", 
+        "Nome": "Diglett",
+        "Tipo": "Terrestre"
+    },{
+        "Pokedex": "051", 
+        "Nome": "Dugtrio",
+        "Tipo": "Terrestre"
+    },{
+        "Pokedex": "052", 
+        "Nome": "Meowth",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "053", 
+        "Nome": "Persian",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "054", 
+        "Nome": "Psyduck",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "055", 
+        "Nome": "Golduck",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "056", 
+        "Nome": "Mankey",
+        "Tipo": "Lutador"
+    },{
+        "Pokedex": "057", 
+        "Nome": "Primeape",
+        "Tipo": "Lutador"
+    },{
+        "Pokedex": "058", 
+        "Nome": "Growlithe",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "059", 
+        "Nome": "Arcanine",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "060", 
+        "Nome": "Poliwag",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "061", 
+        "Nome": "Poliwhirl",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "062", 
+        "Nome": "Poliwrath",
+        "Tipo": "Agua/Lutador"
+    },{
+        "Pokedex": "063", 
+        "Nome": "Abra",
+        "Tipo": "Psiquico"
+    },{
+        "Pokedex": "064", 
+        "Nome": "Kadabra",
+        "Tipo": "Psiquico"
+    },{
+        "Pokedex": "065", 
+        "Nome": "Alakazam",
+        "Tipo": "Psiquico"
+    },{
+        "Pokedex": "066", 
+        "Nome": "Machop",
+        "Tipo": "Lutador"
+    },{
+        "Pokedex": "067", 
+        "Nome": "Machoke",
+        "Tipo": "Lutador"
+    },{
+        "Pokedex": "068", 
+        "Nome": "Machamp",
+        "Tipo": "Lutador"
+    },{
+        "Pokedex": "069", 
+        "Nome": "Bellsprout",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "070", 
+        "Nome": "Weepinbell",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "071", 
+        "Nome": "Victreebel",
+        "Tipo": "Grama/Veneno"
+    },{
+        "Pokedex": "072", 
+        "Nome": "Tentacool",
+        "Tipo": "Agua/Veneno"
+    },{
+        "Pokedex": "073", 
+        "Nome": "Tentacruel",
+        "Tipo": "Agua/Veneno"
+    },{
+        "Pokedex": "074", 
+        "Nome": "Geodude",
+        "Tipo": "Pedra/Terrestre"
+    },{
+        "Pokedex": "075", 
+        "Nome": "Graveler",
+        "Tipo": "Pedra/Terrestre"
+    },{
+        "Pokedex": "076", 
+        "Nome": "Golem",
+        "Tipo": "Pedra/Terrestre"
+    },{
+        "Pokedex": "077", 
+        "Nome": "Ponyta",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "078", 
+        "Nome": "Rapidash",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "079", 
+        "Nome": "Slowpoke",
+        "Tipo": "Agua/Psiquico"
+    },{
+        "Pokedex": "080", 
+        "Nome": "Slowbro",
+        "Tipo": "Agua/Psiquico"
+    },{
+        "Pokedex": "081", 
+        "Nome": "Magnemite",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "082", 
+        "Nome": "Magneton",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "083", 
+        "Nome": "Farfetch'd",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "084", 
+        "Nome": "Doduo",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "085", 
+        "Nome": "Dodrio",
+        "Tipo": "Normal/Voador"
+    },{
+        "Pokedex": "086", 
+        "Nome": "Seel",
+        "Tipo": "Agua/Gelo"
+    },{
+        "Pokedex": "087", 
+        "Nome": "Dewgong",
+        "Tipo": "Agua/Gelo"
+    },{
+        "Pokedex": "088", 
+        "Nome": "Grimer",
+        "Tipo": "Veneno"
+    },{
+        "Pokedex": "089", 
+        "Nome": "Muk",
+        "Tipo": "Veneno"
+    },{
+        "Pokedex": "090", 
+        "Nome": "Shellder",
+        "Tipo": "Agua/Gelo"
+    },{
+        "Pokedex": "091", 
+        "Nome": "Cloyster",
+        "Tipo": "Agua/Gelo"
+    },{
+        "Pokedex": "092", 
+        "Nome": "Gastly",
+        "Tipo": "Fantasma/Veneno"
+    },{
+        "Pokedex": "093", 
+        "Nome": "Haunter",
+        "Tipo": "Fantasma/Veneno"
+    },{
+        "Pokedex": "094", 
+        "Nome": "Gengar",
+        "Tipo": "Fantasma/Veneno"
+    },{
+        "Pokedex": "095", 
+        "Nome": "Onix",
+        "Tipo": "Pedra/Terrestre"
+    },{
+        "Pokedex": "096", 
+        "Nome": "Drowzee",
+        "Tipo": "Psiquico"
+    },{
+        "Pokedex": "097", 
+        "Nome": "Hypno",
+        "Tipo": "Psiquico"
+    },{
+        "Pokedex": "098", 
+        "Nome": "Krabby",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "099", 
+        "Nome": "Kingler",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "100", 
+        "Nome": "Voltorb",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "101", 
+        "Nome": "Electrode",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "102", 
+        "Nome": "Exeggcute",
+        "Tipo": "Grama/Psiquico"
+    },{
+        "Pokedex": "103", 
+        "Nome": "Exeggutor",
+        "Tipo": "Grama/Psiquico"
+    },{
+        "Pokedex": "104", 
+        "Nome": "Cubone",
+        "Tipo": "Pedra/Terrestre"
+    },{
+        "Pokedex": "105", 
+        "Nome": "Marowak",
+        "Tipo": "Terrestre"
+    },{
+        "Pokedex": "106", 
+        "Nome": "Hitmonlee",
+        "Tipo": "Lutador"
+    },{
+        "Pokedex": "107", 
+        "Nome": "Hitmonchan",
+        "Tipo": "Lutador"
+    },{
+        "Pokedex": "108", 
+        "Nome": "Lickitung",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "109", 
+        "Nome": "Koffing",
+        "Tipo": "Veneno"
+    },{
+        "Pokedex": "110", 
+        "Nome": "Weezing",
+        "Tipo": "Veneno"
+    },{
+        "Pokedex": "111", 
+        "Nome": "Rhyhorn",
+        "Tipo": "Pedra/Terrestre"
+    },{
+        "Pokedex": "112", 
+        "Nome": "Rhydon",
+        "Tipo": "Pedra/Terrestre"
+    },{
+        "Pokedex": "113", 
+        "Nome": "Chansey",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "114", 
+        "Nome": "Tangela",
+        "Tipo": "Grama"
+    },{
+        "Pokedex": "115", 
+        "Nome": "Kangaskhan",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "116", 
+        "Nome": "Horsea",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "117", 
+        "Nome": "Seadra",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "118", 
+        "Nome": "Goldeen",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "119", 
+        "Nome": "Seaking",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "120", 
+        "Nome": "Staryu",
+        "Tipo": "Agua/Psiquico"
+    },{
+        "Pokedex": "121", 
+        "Nome": "Starmie",
+        "Tipo": "Agua/Psiquico"
+    },{
+        "Pokedex": "122", 
+        "Nome": "Mr. Mime",
+        "Tipo": "Psiquico"
+    },{
+        "Pokedex": "123", 
+        "Nome": "Scyther",
+        "Tipo": "Inseto/Voador"
+    },{
+        "Pokedex": "124", 
+        "Nome": "Jinx",
+        "Tipo": "Gelo/Psiquico"
+    },{
+        "Pokedex": "125", 
+        "Nome": "Electabuzz",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "126", 
+        "Nome": "Magmar",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "127", 
+        "Nome": "Pinsir",
+        "Tipo": "Inseto"
+    },{
+        "Pokedex": "128", 
+        "Nome": "Tauros",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "129", 
+        "Nome": "Magikarp",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "130", 
+        "Nome": "Gyarados",
+        "Tipo": "Agua/Voador"
+    },{
+        "Pokedex": "131", 
+        "Nome": "Lapras",
+        "Tipo": "Agua/Gelo"
+    },{
+        "Pokedex": "132", 
+        "Nome": "Ditto",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "133", 
+        "Nome": "Eevee",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "134", 
+        "Nome": "Vaporeon",
+        "Tipo": "Agua"
+    },{
+        "Pokedex": "135", 
+        "Nome": "Jolteon",
+        "Tipo": "Eletrico"
+    },{
+        "Pokedex": "136", 
+        "Nome": "Flareon",
+        "Tipo": "Fogo"
+    },{
+        "Pokedex": "137", 
+        "Nome": "Porygon",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "138", 
+        "Nome": "Omanyte",
+        "Tipo": "Agua/Pedra"
+    },{
+        "Pokedex": "139", 
+        "Nome": "Omastar",
+        "Tipo": "Agua/Pedra"
+    },{
+        "Pokedex": "140", 
+        "Nome": "Kabuto",
+        "Tipo": "Agua/Pedra"
+    },{
+        "Pokedex": "141", 
+        "Nome": "Kabutops",
+        "Tipo": "Agua/Pedra"
+    },{
+        "Pokedex": "142", 
+        "Nome": "Aerodactyl",
+        "Tipo": "Pedra/Voador"
+    },{
+        "Pokedex": "143", 
+        "Nome": "Snorlax",
+        "Tipo": "Normal"
+    },{
+        "Pokedex": "144", 
+        "Nome": "Articuno",
+        "Tipo": "Gelo/Voador"
+    },{
+        "Pokedex": "145", 
+        "Nome": "Zapdos",
+        "Tipo": "Eletrico/Voador"
+    },{
+        "Pokedex": "146", 
+        "Nome": "Moltres",
+        "Tipo": "Fogo/Voador"
+    },{
+        "Pokedex": "147", 
+        "Nome": "Dratini",
+        "Tipo": "Dragão"
+    },{
+        "Pokedex": "148", 
+        "Nome": "Dragonair",
+        "Tipo": "Dragão"
+    },{
+        "Pokedex": "149", 
+        "Nome": "Dragonite",
+        "Tipo": "Dragão/Voador"
+    },{
+        "Pokedex": "150", 
+        "Nome": "Mewtwo",
+        "Tipo": "Psiquico"
+    },{
+        "Pokedex": "151", 
+        "Nome": "Mew",
+        "Tipo": "Psiquico"
+    }
+    
+
+
+
+
+
+
+
+
+
+
+]
