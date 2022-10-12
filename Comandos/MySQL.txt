@@ -1,0 +1,26 @@
+-Comandos:
+create/drop database/table			;criar/excluir DB/tabelas
+Insert into table ('','','')			;vai inserir uma nova linha na tabela selecionada
+Use						;Comando necessario para usar uma DB
+Select Column/* from table			;
+Desc/Describe DB/Table/Column			; Vai descrever o que tem na database/tabela/coluna
+Alter Table: 					;alterar tabela
+
+-add/drop column  after/first			;Ex. add column Animal varchar(10) after nome (usar depois do ALTER)
+-modify						;Vai modificar algo na column (Usar depois do alter)
+-changecolumn old_name New_name + variaveis	;vai trocar o nome + variaveis de uma column (Usar depois do alter)	
+-rename to					; modificar o nome da tabela inteira
+)
+---------------------------------------------------------------------------------------------------------------------------
+-Variaveis:
+primary key			;Vai definir uma column Primaria
+Varchar(???)			;Caracteres variaveis 
+Char(???)			;Caracterese fixos
+Not null			;Nao aceita valor nulo
+Enum ('??','??')		;Seta valores fixos de entrada
+decimal(?,?)			;Valores decimais Ex (3,2) aceita ???,??(ex. 137,35)
+DEFAULT '??'			;Quando nada é prenchido, seta um valor fixo expecificado no codigo
+*				; All
+Unique				; Valor unico
+DEFAULT charset =utf8		; define o padrao de caracteres do brasil
+unsigned			; nao atribui sinal (+,-) 
