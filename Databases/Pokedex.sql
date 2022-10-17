@@ -1,3 +1,4 @@
+
 Create database if not exists pokedex;
 use pokedex;
 create table Gen_1(

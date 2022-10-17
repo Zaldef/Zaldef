@@ -6,6 +6,8 @@ botao direito > ferramenta > command windows >
 --------------------------------------------------------
 - Como acessar o localhost
 WAMP - http://localhost/?lang=portuguese
+PHPMYADMIN - http://localhost/phpmyadmin/index.php?route=/&route=%2F
 
 - Como criar um novo projeto para ser exibido no localhost
 Mandar o aquivo para C:\wamp64\www
+

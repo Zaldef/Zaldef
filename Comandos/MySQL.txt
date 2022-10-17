@@ -1,9 +1,34 @@
+MySQL
+	DDL(Data Definition Language)	
+	DML(Data Manipulation Language)	
+	DQL(Data Query Language)	
+	DCL(Data Control Language)
+	DTL(Data Transaction Language)
 -Comandos:
-create/drop database/table			;criar/excluir DB/tabelas
-Insert into table ('','','')			;vai inserir uma nova linha na tabela selecionada
-Use						;Comando necessario para usar uma DB
-Select Column/* from table			;
-Desc/Describe DB/Table/Column			; Vai descrever o que tem na database/tabela/coluna
+	DDL:
+	- CREATE/DROP DATABASE exemplo		; 
+	- CREATE/DROP TABLE  exemplo	( exemplo + Variaveis + Constraints)		 
+		- Variaveis:	CHAR(?), VARCHAR(?), INT(?), SET('?','?'), DECIMAL('?','?') 
+		- Constraints:	NOT NULL, AUTO_INCREMENT, DEFAULT 'exemplo', PRIMARY KEY(?), UNIQUE, UNSIGNED
+	- ALTER TABLE	
+	- USE exemplo
+	- DESC exemplo
+
+	DML:
+	- INSERT INTO exemplo VALUES ('','','')
+	- UPDATE database.table SET column = 'new' WHERE (column = 'position')
+	- DELETE * FROM *
+	- TRUNCATE 
+
+	DQL:
+	-SELECT * FROM *		
+
+
+
+
+
+
+
 Alter Table: 					;alterar tabela
 
 -add/drop column  after/first			;Ex. add column Animal varchar(10) after nome (usar depois do ALTER)
@@ -11,16 +36,11 @@ Alter Table: 					;alterar tabela
 -changecolumn old_name New_name + variaveis	;vai trocar o nome + variaveis de uma column (Usar depois do alter)	
 -rename to					; modificar o nome da tabela inteira
 )
----------------------------------------------------------------------------------------------------------------------------
--Variaveis:
-primary key			;Vai definir uma column Primaria
-Varchar(???)			;Caracteres variaveis 
-Char(???)			;Caracterese fixos
-Not null			;Nao aceita valor nulo
-Enum ('??','??')		;Seta valores fixos de entrada
-decimal(?,?)			;Valores decimais Ex (3,2) aceita ???,??(ex. 137,35)
-DEFAULT '??'			;Quando nada é prenchido, seta um valor fixo expecificado no codigo
+
+
+
+
 *				; All
 Unique				; Valor unico
 DEFAULT charset =utf8		; define o padrao de caracteres do brasil
-unsigned			; nao atribui sinal (+,-) 
+
