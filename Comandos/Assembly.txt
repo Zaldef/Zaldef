@@ -1,41 +1,55 @@
 -Base diferentes para o numero 10:
-1010b (binario)			12o (octal)			10d (decimal)			Ah (hexa)
+	1010b (binario)			
+	12o (octal)			
+	10d (decimal)			
+	Ah (hexa)
 ---------------------------------------------------------------------------------------------------------------------------
 -Definições de variaveis:
-DB (8 bits)	DW (16 bits, 2 Bytes)	DD (2 Palavras, 4 Bytes)	DQ(4 Palavras, 8 Bytes)	DT(10 Bytes)
+	DB (8 bits)	
+	DW (16 bits, 2 Bytes)	
+	DD (2 Palavras, 4 Bytes)	
+	DQ(4 Palavras, 8 Bytes)	
+	DT(10 Bytes)
 ---------------------------------------------------------------------------------------------------------------------------
 -Flags:
-CF(Carry)	ZF(Zero)	SF(Signal)	OF(Overflow)	PF(Parity)	AF(Auxiliar)	IF	DF
+	CF(Carry)	
+	ZF(Zero)	
+	SF(Signal)	
+	OF(Overflow)	
+	PF(Parity)	
+	AF(Auxiliar)	
+	IF	
+	DF
 ---------------------------------------------------------------------------------------------------------------------------
 -Comandos do X86: 
-MOV
-XCHG 
-ADD
-SUB
-INC
-DEC
-NEG
-NOP
-LEA
-CMP
-LOOP
-JMP
-JXXX		- Ver seção de Jumps condicionais
+	MOV
+	XCHG 
+	ADD
+	SUB
+	INC
+	DEC
+	NEG
+	NOP
+	LEA
+	CMP
+	LOOP
+	JMP
+	JXXX		- Ver seção de Jumps condicionais
 ---------------------------------------------------------------------------------------------------------------------------
 -Jumps condicionais:
 Saltos Flags:
-	JC 		- Jump if Carry 	(CF=1)
+	JC 		- Jump if Carry 		(CF=1)
 	JNC		- Jump if Not Carry 	(CF=0)
-	JZ 		- Jump if Zero		(ZF=1)
-	JNZ		- Jump if Not Zero	(ZF=0)
-	JO 		- Jump if Overflow 	(OF=1)
-	JNO		- Jump if Not Overflow 	(OF=0)
-	JP 		- Jump if Parity 	(PF=1)
+	JZ 		- Jump if Zero			(ZF=1)
+	JNZ		- Jump if Not Zero		(ZF=0)
+	JO 		- Jump if Overflow 		(OF=1)
+	JNO		- Jump if Not Overflow	(OF=0)
+	JP 		- Jump if Parity 		(PF=1)
 	JNP		- Jump if Not Parity 	(PF=0)
-	JS 		- Jump if Sign 		(SF=1)
-	JNS		- Jump if Not Sign 	(SF=0)
-	JE 		- Jump if Equal		(ZF=0)
-	JNE 		- Jump if Not Equal	(ZF=1)
+	JS 		- Jump if Sign 			(SF=1)
+	JNS		- Jump if Not Sign 		(SF=0)
+	JE 		- Jump if Equal			(ZF=0)
+	JNE 	- Jump if Not Equal		(ZF=1)
 Saltos Ñ Sinalizados:
 	JA/JNBE 	- Jump if Above ou Jump if Not Below or Equal	(CF=0 e ZF=0)
 	JAE/JNB 	- Jump if Above or Equal ou Jump if Not Below	(CF=0)
