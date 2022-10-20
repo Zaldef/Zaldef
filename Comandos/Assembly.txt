@@ -76,3 +76,4 @@ Saltos Sinalizados:
 	JBE/JNA 	- Jump if Less or Equal ou Jump if Not Greater	(ZF=1 OU SF≠OF)
 ---------------------------------------------------------------------------------------------------------------------------
 - https://www.aldeid.com/wiki/X86-assembly
+- http://www2.ift.ulaval.ca/~marchand/ift17583/dosints.pdf
