@@ -33,7 +33,7 @@
 <a href = "https://www.instagram.com/roelli.exe/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
 <a href = "mailto:guilhermeroelli@gmail.com"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
 <a href = "https://www.linkedin.com/in/gui-roelli-a52584254/"><img src="https://img.icons8.com/fluent/48/000000/linkedin"/></a>
-<a href = "https://www.linkedin.com/in/gui-roelli-a52584254/"><img src="https://img.icons8.com/color/48/000000/discord-logo.png"/></a>
+<a href = "https://discord.gg/nSvsBfRVGD"><img src="https://img.icons8.com/color/48/000000/discord-logo.png"/></a>
 </p>
 
   ![Snake animation](https://github.com/zaldef/zaldef/blob/output/github-contribution-grid-snake.svg)
