@@ -1,6 +1,6 @@
 -Base diferentes para o numero 10:
 	1010b (binario)			
-	12o (octal)			
+	12q (octal)			
 	10d (decimal)			
 	Ah (hexa)
 ---------------------------------------------------------------------------------------------------------------------------
@@ -26,6 +26,8 @@
 	XCHG 
 	ADD
 	SUB
+	MUL
+	DIV
 	INC
 	DEC
 	NEG
@@ -33,8 +35,20 @@
 	LEA
 	CMP
 	LOOP
-	JMP
+	JMP			- Jump incondicional
 	JXXX		- Ver seção de Jumps condicionais
+	SHL
+	SHR
+	SAL 
+	SAR
+	ROR
+	ROL
+	RCR
+	RCM
+	AND
+	OR 
+	XOR
+	NOT 
 ---------------------------------------------------------------------------------------------------------------------------
 -Jumps condicionais:
 Saltos Flags:
