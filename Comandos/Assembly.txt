@@ -1,25 +1,25 @@
 -Base diferentes para o numero 10:
-	1010b (binario)			
-	12q (octal)			
-	10d (decimal)			
-	Ah (hexa)
+	1010b	(binario)			
+	12q 	(octal)			
+	10d 	(decimal)			
+	Ah 		(hexa)
 ---------------------------------------------------------------------------------------------------------------------------
 -Definições de variaveis:
-	DB (8 bits)	
-	DW (16 bits, 2 Bytes)	
-	DD (2 Palavras, 4 Bytes)	
-	DQ(4 Palavras, 8 Bytes)	
-	DT(10 Bytes)
+	DB 	(8 bits)	
+	DW 	(16 bits, 2 Bytes)	
+	DD	(2 Palavras, 4 Bytes)	
+	DQ	(4 Palavras, 8 Bytes)	
+	DT	(10 Bytes)
 ---------------------------------------------------------------------------------------------------------------------------
 -Flags:
-	CF(Carry)	
-	ZF(Zero)	
-	SF(Signal)	
-	OF(Overflow)	
-	PF(Parity)	
-	AF(Auxiliar)	
-	IF	
-	DF
+	CF	(Carry)	
+	ZF	(Zero)	
+	SF	(Signal)	
+	OF	(Overflow)	
+	PF	(Parity)	
+	AF	(Auxiliar)	
+	IF	(Identification)	
+	DF	(Direction)
 ---------------------------------------------------------------------------------------------------------------------------
 -Comandos do X86: 
 	MOV
