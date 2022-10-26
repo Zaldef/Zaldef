@@ -11,6 +11,24 @@
 	DQ	(4 Palavras, 8 Bytes)	
 	DT	(10 Bytes)
 ---------------------------------------------------------------------------------------------------------------------------
+-Registradores X86
+	Registradores de dados:
+		AX	(Acumulador)
+		BX  (Base)
+		CX  (Contador)
+		DX  (Data)
+	Registradores de segmentos:
+		CS	(Code Segment) 
+		DS 	(Data Segment)
+		SS 	(Stack Segment)
+		ES 	(Extra Segment)
+	Registradores de indices e apontadores:
+		SI 	(Source Index)
+		DI  (Destination Index)
+		SP	(Stack Pointer)
+		BP	(Base Pointer)
+		IP	(Instruction Pointer)
+---------------------------------------------------------------------------------------------------------------------------
 -Flags:
 	CF	(Carry)	
 	ZF	(Zero)	
@@ -22,33 +40,34 @@
 	DF	(Direction)
 ---------------------------------------------------------------------------------------------------------------------------
 -Comandos do X86: 
-	MOV
-	XCHG 
-	ADD
-	SUB
-	MUL
-	DIV
-	INC
-	DEC
-	NEG
-	NOP
-	LEA
-	CMP
-	LOOP
-	JMP			- Jump incondicional
-	JXXX		- Ver seção de Jumps condicionais
-	SHL
-	SHR
-	SAL 
-	SAR
-	ROR
-	ROL
-	RCR
-	RCM
-	AND
-	OR 
-	XOR
-	NOT 
+	Destino(Registradores de dados(RD) e segmentos(RS0), posição de memoria(MEM))
+	Fonte(Registradores de dados(RD) e segmentos(RS0), posição de memoria(MEM) e constantes(CON)) 
+		MOV			- Ñ pode: RS X RS, MEM X MEM
+		XCHG 		- Pode RD X RD/MEM, MEM X RD
+		ADD/SUB		- Pode RD X RD/MEM/CON, MEM X RD/CON	AFETA TODOS OS FLAGS
+		ADC  		- ADD normal + CF
+		INC/DEC		- Destino: RD/MEM 						AFETA TODOS OS FLAGS, MENOS CF
+		MUL
+		DIV
+		NEG			- Destino & Fonte: RD/MEM 				AFETA TODOS OS FLAGS
+		NOP
+		LEA			- DX X MEM
+		CMP			- Compara RD X RD/MEM/CON, MEM X RD/CON
+		LOOP		- Volta para aonde indicar até CX for 0, auto DEC CX
+		JMP			- Jump incondicional
+		JXXX		- Ver seção de Jumps condicionais
+		SHL
+		SHR
+		SAL 
+		SAR
+		ROR
+		ROL
+		RCR
+		RCM
+		AND
+		OR 
+		XOR
+		NOT 
 ---------------------------------------------------------------------------------------------------------------------------
 -Jumps condicionais:
 Saltos Flags:
@@ -71,9 +90,9 @@ Saltos Ñ Sinalizados:
 	JBE/JNA 	- Jump if Below or Equal ou Jump if Not Above	(CF=1 ou ZF=1)
 Saltos Sinalizados:
 	JG/JNLE 	- Jump if Greater ou Jump if Not Less or Equal 	(ZF=0 e SF=OF)
-	JAE/JNB 	- Jump if Greater or Equal ou Jump if Not Less	(SF≠OF)
-	JB/JNAE 	- Jump if Less ou Jump if Not Greater or Equal	(SF≠OF)
-	JBE/JNA 	- Jump if Less or Equal ou Jump if Not Greater	(ZF=1 OU SF≠OF)
+	JGE/JNB 	- Jump if Greater or Equal ou Jump if Not Less	(SF≠OF)
+	JL/JNGE 	- Jump if Less ou Jump if Not Greater or Equal	(SF≠OF)
+	JLE/JNG 	- Jump if Less or Equal ou Jump if Not Greater	(ZF=1 OU SF≠OF)
 ---------------------------------------------------------------------------------------------------------------------------
 - https://www.aldeid.com/wiki/X86-assembly
 - http://www2.ift.ulaval.ca/~marchand/ift17583/dosints.pdf
