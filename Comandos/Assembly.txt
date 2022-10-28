@@ -96,3 +96,4 @@ Saltos Sinalizados:
 ---------------------------------------------------------------------------------------------------------------------------
 - https://www.aldeid.com/wiki/X86-assembly
 - http://www2.ift.ulaval.ca/~marchand/ift17583/dosints.pdf
+- http://spike.scu.edu.au/~barry/interrupts.html#ah09
