@@ -1,8 +1,12 @@
+-Estrutura de um computador:
+	-CPU: 
+	-Memoria: Registradores internos < Memoria principal(RAM) < Memoria secundaria(HDD & SDD) 
+---------------------------------------------------------------------------------------------------------------------------
 -Base diferentes para o numero 10:
 	1010b	(binario)			
 	12q 	(octal)			
 	10d 	(decimal)			
-	Ah 		(hexa)
+	0Ah 	(hexa)
 ---------------------------------------------------------------------------------------------------------------------------
 -Definições de variaveis:
 	DB 	(8 bits)	
@@ -70,29 +74,29 @@
 		NOT 
 ---------------------------------------------------------------------------------------------------------------------------
 -Jumps condicionais:
-Saltos Flags:
-	JC 		- Jump if Carry 		(CF=1)
-	JNC		- Jump if Not Carry 	(CF=0)
-	JZ 		- Jump if Zero			(ZF=1)
-	JNZ		- Jump if Not Zero		(ZF=0)
-	JO 		- Jump if Overflow 		(OF=1)
-	JNO		- Jump if Not Overflow	(OF=0)
-	JP 		- Jump if Parity 		(PF=1)
-	JNP		- Jump if Not Parity 	(PF=0)
-	JS 		- Jump if Sign 			(SF=1)
-	JNS		- Jump if Not Sign 		(SF=0)
-	JE 		- Jump if Equal			(ZF=0)
-	JNE 	- Jump if Not Equal		(ZF=1)
-Saltos Ñ Sinalizados:
-	JA/JNBE 	- Jump if Above ou Jump if Not Below or Equal	(CF=0 e ZF=0)
-	JAE/JNB 	- Jump if Above or Equal ou Jump if Not Below	(CF=0)
-	JB/JNAE 	- Jump if Below ou Jump if Not Above or Equal	(CF=1)
-	JBE/JNA 	- Jump if Below or Equal ou Jump if Not Above	(CF=1 ou ZF=1)
-Saltos Sinalizados:
-	JG/JNLE 	- Jump if Greater ou Jump if Not Less or Equal 	(ZF=0 e SF=OF)
-	JGE/JNB 	- Jump if Greater or Equal ou Jump if Not Less	(SF≠OF)
-	JL/JNGE 	- Jump if Less ou Jump if Not Greater or Equal	(SF≠OF)
-	JLE/JNG 	- Jump if Less or Equal ou Jump if Not Greater	(ZF=1 OU SF≠OF)
+	Saltos Flags:
+		JC 		- Jump if Carry 		(CF=1)
+		JNC		- Jump if Not Carry 	(CF=0)
+		JZ 		- Jump if Zero			(ZF=1)
+		JNZ		- Jump if Not Zero		(ZF=0)
+		JO 		- Jump if Overflow 		(OF=1)
+		JNO		- Jump if Not Overflow	(OF=0)
+		JP 		- Jump if Parity 		(PF=1)
+		JNP		- Jump if Not Parity 	(PF=0)
+		JS 		- Jump if Sign 			(SF=1)
+		JNS		- Jump if Not Sign 		(SF=0)
+		JE 		- Jump if Equal			(ZF=0)
+		JNE 	- Jump if Not Equal		(ZF=1)
+	Saltos Ñ Sinalizados:
+		JA/JNBE 	- Jump if Above ou Jump if Not Below or Equal	(CF=0 e ZF=0)
+		JAE/JNB 	- Jump if Above or Equal ou Jump if Not Below	(CF=0)
+		JB/JNAE 	- Jump if Below ou Jump if Not Above or Equal	(CF=1)
+		JBE/JNA 	- Jump if Below or Equal ou Jump if Not Above	(CF=1 ou ZF=1)
+	Saltos Sinalizados:
+		JG/JNLE 	- Jump if Greater ou Jump if Not Less or Equal 	(ZF=0 e SF=OF)
+		JGE/JNB 	- Jump if Greater or Equal ou Jump if Not Less	(SF≠OF)
+		JL/JNGE 	- Jump if Less ou Jump if Not Greater or Equal	(SF≠OF)
+		JLE/JNG 	- Jump if Less or Equal ou Jump if Not Greater	(ZF=1 OU SF≠OF)
 ---------------------------------------------------------------------------------------------------------------------------
 - https://www.aldeid.com/wiki/X86-assembly
 - http://www2.ift.ulaval.ca/~marchand/ift17583/dosints.pdf
