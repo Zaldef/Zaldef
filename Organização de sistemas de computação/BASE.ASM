@@ -1,9 +1,11 @@
-TITLE Guilherme Roelli (22899140)
+TITLE Matriz
 .MODEL SMALL
+.STACK 100h
+.DATA
 .CODE
-    MAIN PROC
-    FIM:
-    MOV AH,4Ch         
-    INT 21h 
-    MAIN ENDP
+MAIN PROC 
+END:      
+MOV AH,4CH              
+INT 21H
+MAIN ENDP
 END MAIN
