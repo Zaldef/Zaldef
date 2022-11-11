@@ -44,17 +44,17 @@ LIN_COL  EQU  4
         IN1:                            ;
             MOV CH,LIN_COL              ; Usado como contador de colunas 
 
-        IN2:                            ;
-            INT 21h                     ;
-            AND AL,0Fh                  ; Converte para numero o caracter
-            MOV MATRIZ [BX][SI],AL      ; Armazena na matriz
-            INC SI                      ; Atualiza o endereço da matriz, deslocando para a proxima coluna
-            DEC CH                      ; 
+            IN2:                            ;
+                INT 21h                     ;
+                AND AL,0Fh                  ; Converte para numero o caracter
+                MOV MATRIZ [BX][SI],AL      ; Armazena na matriz
+                INC SI                      ; Atualiza o endereço da matriz, deslocando para a proxima coluna
+                DEC CH                      ; 
             JNZ IN2                     ; LOOP1 
             ADD BX,LIN_COL              ; Desloca uma linha na matriz
             XOR SI,SI                   ; Reseta as colunas
             DEC CL                      ;
-            JNZ IN1                     ; LOOP2 (nao utilizado LOOP, pois estamos utilizando CX para outro "loop" temos um loop1 dentro do outro loop2)
+        JNZ IN1                     ; LOOP2 (nao utilizado LOOP, pois estamos utilizando CX para outro "loop" temos um loop1 dentro do outro loop2)
 
         POP SI  ; 
         POP BX  ; 
@@ -72,21 +72,21 @@ LIN_COL  EQU  4
 
         OUT1:                       ;   
             MOV CH, LIN_COL         ; Usado como contador de colunas  
-        OUT2:                       ;   
-            MOV DL, MATRIZ[BX][SI]  ; Copia a informacao da matriz para DL(entrada padrao para função 02h)  
-            OR DL, 30h              ; Converte para caracter
-            INT 21h                 ;   
-            MOV DL, 20H             ;
-            INT 21h                 ; SPACE  
-            INC SI                  ; Atualiza o endereço da matriz, deslocando para a proxima coluna  
-            DEC CH                  ;   
+            OUT2:                       ;   
+                MOV DL, MATRIZ[BX][SI]  ; Copia a informacao da matriz para DL(entrada padrao para função 02h)  
+                OR DL, 30h              ; Converte para caracter
+                INT 21h                 ;   
+                MOV DL, 20H             ;
+                INT 21h                 ; SPACE  
+                INC SI                  ; Atualiza o endereço da matriz, deslocando para a proxima coluna  
+                DEC CH                  ;   
             JNZ OUT2                ; LOOP1
             MOV DL, 10              ; 
             INT 21h                 ; LINE FEED  
             ADD BX, LIN_COL         ; Desloca uma linha na matriz  
             XOR SI,SI               ; Reseta as colunas
             DEC CL                  ;   
-            JNZ OUT1                ; LOOP2 (nao utilizado LOOP, pois estamos utilizando CX para outro "loop" temos um loop1 dentro do outro loop2)
+        JNZ OUT1                ; LOOP2 (nao utilizado LOOP, pois estamos utilizando CX para outro "loop" temos um loop1 dentro do outro loop2)
 
         POP SI  ;
         POP BX  ;
@@ -104,21 +104,21 @@ LIN_COL  EQU  4
 
         NEW_OUT1:                   ;
             MOV CH, LIN_COL         ; Usado como contador de colunas    
-        NEW_OUT2:                   ;
-            MOV DL, MATRIZ[BX][SI]  ; Copia a informacao da matriz para DL(entrada padrao para função 02h)  
-            OR DL, 30h              ; Converte para caracter
-            INT 21h                 ;
-            MOV DL, 20H             ;
-            INT 21h                 ; SPACE
-            ADD BX, LIN_COL         ; Atualiza o endereço da matriz, deslocando para a proxima linha
-            DEC CH                  ; Usado como contador de linhas
+            NEW_OUT2:                   ;
+                MOV DL, MATRIZ[BX][SI]  ; Copia a informacao da matriz para DL(entrada padrao para função 02h)  
+                OR DL, 30h              ; Converte para caracter
+                INT 21h                 ;
+                MOV DL, 20H             ;
+                INT 21h                 ; SPACE
+                ADD BX, LIN_COL         ; Atualiza o endereço da matriz, deslocando para a proxima linha
+                DEC CH                  ; Usado como contador de linhas
             JNZ NEW_OUT2            ; LOOP1
             MOV DL, 10              ;
             INT 21h                 ; LINE FEED
             INC SI                  ; Atualiza o endereço da matriz, deslocando para a proxima coluna
             XOR BX,BX               ; Reseta as linhas
             DEC CL                  ;
-            JNZ NEW_OUT1            ; LOOP2 (nao utilizado LOOP, pois estamos utilizando CX para outro "loop" temos um loop1 dentro do outro loop2)
+        JNZ NEW_OUT1            ; LOOP2 (nao utilizado LOOP, pois estamos utilizando CX para outro "loop" temos um loop1 dentro do outro loop2)
     
         POP SI  ;
         POP BX  ;
@@ -128,7 +128,7 @@ LIN_COL  EQU  4
     
     PRINT PROC ; Proc para printar na tela alguma string, atravez da funçao 09
         MOV AH,09h         
-	    INT 21h            
+	    INT 21H            
 	    RET 
     PRINT ENDP
 END MAIN
