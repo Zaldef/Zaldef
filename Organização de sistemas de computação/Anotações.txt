@@ -1,6 +1,6 @@
 -Estrutura de um computador:
 	-CPU: 
-	-Memoria: Registradores internos < Memoria principal(RAM) < Memoria secundaria(HDD & SDD) 
+	-Memória: Registradores internos < Memória principal(RAM) < Memória secundaria(HDD & SDD) 
 ---------------------------------------------------------------------------------------------------------------------------
 -Base diferentes para o numero 10:
 	1010b	(binario)			
