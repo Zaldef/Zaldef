@@ -79,7 +79,7 @@ IN_INICIO:
 ENTRADA_DECIMAL ENDP
 
 SAIDA_DECIMAL PROC
-    LEA DX, ENTRADAMSG  ;           
+    LEA DX, SAIDAMSG  ;           
     CALL PRINT          ;
     TEST BX, 8000H      ; Logica para verificar se o numero é positivo ou negativo
 
