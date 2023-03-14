@@ -98,6 +98,17 @@
 		JL/JNGE 	- Jump if Less ou Jump if Not Greater or Equal	(SF≠OF)
 		JLE/JNG 	- Jump if Less or Equal ou Jump if Not Greater	(ZF=1 OU SF≠OF)
 ---------------------------------------------------------------------------------------------------------------------------
+-Interrupts:
+	INT 10H:
+		-https://en.wikipedia.org/wiki/INT_10H
+	INT 16H:
+		-https://en.wikipedia.org/wiki/INT_16H
+	INT 21H:
+		-http://spike.scu.edu.au/~barry/interrupts.html#ah09
+		-https://en.wikipedia.org/wiki/DOS_API#Interrupt_vectors_used_by_DOS
+
+
+---------------------------------------------------------------------------------------------------------------------------
 - https://www.aldeid.com/wiki/X86-assembly
 - http://www2.ift.ulaval.ca/~marchand/ift17583/dosints.pdf
-- http://spike.scu.edu.au/~barry/interrupts.html#ah09
+
