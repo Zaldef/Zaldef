@@ -1,0 +1,23 @@
+* C:\Users\22886287\Documents\GitHub\Zaldef\Eletronica\Lab 1-2-2.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Mar 27 14:39:08 2023
+
+
+
+** Analysis setup **
+.tran 0s 1s 0 10us
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Lab 1-2-2.net"
+.INC "Lab 1-2-2.als"
+
+
+.probe
+
+
+.END
