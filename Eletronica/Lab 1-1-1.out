@@ -1,0 +1,171 @@
+
+**** 03/27/23 14:15:06 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\22886287\Documents\GitHub\Zaldef\Eletronica\Lab 1-1-1.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Mar 27 14:09:56 2023
+
+
+
+** Analysis setup **
+.tran 0s 100ms 0 10us
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Lab 1-1-1.net"
+
+**** INCLUDING "Lab 1-1-1.net" ****
+* Schematics Netlist *
+
+
+
+R_R1         $N_0002 $N_0001  1k  
+D_D1         $N_0001 0 D1N4002 
+V_Vdc         $N_0002 0 12V
+
+**** RESUMING "Lab 1-1-1.cir" ****
+.INC "Lab 1-1-1.als"
+
+
+
+**** INCLUDING "Lab 1-1-1.als" ****
+* Schematics Aliases *
+
+.ALIASES
+R_R1            R1(1=$N_0002 2=$N_0001 )
+D_D1            D1(1=$N_0001 2=0 )
+V_Vdc           Vdc(+=$N_0002 -=0 )
+.ENDALIASES
+
+
+**** RESUMING "Lab 1-1-1.cir" ****
+.probe
+
+
+.END
+
+**** 03/27/23 14:15:06 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\22886287\Documents\GitHub\Zaldef\Eletronica\Lab 1-1-1.sch
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4002         
+          IS   14.110000E-09 
+           N    1.984        
+         ISR  100.000000E-12 
+         IKF   94.81         
+          BV  100.1          
+         IBV   10            
+          RS     .03389      
+          TT    4.761000E-06 
+         CJO   51.170000E-12 
+          VJ     .3905       
+           M     .2762       
+
+
+**** 03/27/23 14:15:06 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\22886287\Documents\GitHub\Zaldef\Eletronica\Lab 1-1-1.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)     .6976                   ($N_0002)   12.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vdc       -1.130E-02
+
+    TOTAL POWER DISSIPATION   1.36E-01  WATTS
+
+
+**** 03/27/23 14:15:06 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\22886287\Documents\GitHub\Zaldef\Eletronica\Lab 1-1-1.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** DIODES
+
+
+NAME         D_D1      
+MODEL        D1N4002   
+ID           1.13E-02 
+VD           6.98E-01 
+REQ          4.54E+00 
+CAP          1.05E-06 
+**** 03/27/23 14:15:06 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\22886287\Documents\GitHub\Zaldef\Eletronica\Lab 1-1-1.sch
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)     .6976                   ($N_0002)   12.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vdc       -1.130E-02
+
+    TOTAL POWER DISSIPATION   1.36E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .22
+
