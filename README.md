@@ -8,7 +8,7 @@
 <img height="180em" src="https://github-profile-trophy.vercel.app/?username=Zaldef&theme=tokyonight&column=-1&&margin-w=10"/>
 
 <h1 align="left">                                                                                                                                                       
-💻 Languages, Tools and Technologies </h1>
+💻 Languages, Tools and Technologies(OUTDATED!!!) </h1>
   
   <p align="center" style="background:yellow">
 <img align="center" src="https://img.shields.io/badge/-JavaScript-7F3ACE?style=flat&logo=javascript"/>
