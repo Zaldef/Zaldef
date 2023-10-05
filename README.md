@@ -1,16 +1,17 @@
-# Hi, I’m 🔰Zaldef🔰 
-- I'm from a small town in São Paulo-Brazil :city_sunrise: 💚💛
-- I like games🎮, animes🍡 and coffee ☕
+# Hi, I’m 🔰Zaldef🔰
+
+- I'm from a small town in São Paulo-Brazil 🌇 💚💛
+- I like rock music 🎵 like Queen and Beatles, or metal bands like iron maiden and AC/DC
 - I’m currently studyng Computer engineering in PUC-Campinas 🏫, i'm in 3º Semester
-##
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zaldef&count_private=true&show_icons=true&theme=midnight-purple&count_private=disable&card_width=400px&line_height=24)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaldef&langs_count=8&layout=compact&theme=midnight-purple)
-<img height="180em" src="https://github-profile-trophy.vercel.app/?username=Zaldef&theme=tokyonight&column=-1&&margin-w=10"/>
+`<img height="180em" src="https://github-profile-trophy.vercel.app/?username=Zaldef&theme=tokyonight&column=-1&&margin-w=10"/>`
 
-<h1 align="left">                                                                                                                                                       
+<h1 align="left">                                                                                                                                                     
 💻 Languages, Tools and Technologies(OUTDATED!!!) </h1>
-  
-  <p align="center" style="background:yellow">
+
+<p align="center" style="background:yellow">
 <img align="center" src="https://img.shields.io/badge/-JavaScript-7F3ACE?style=flat&logo=javascript"/>
 <img align="center" src="https://img.shields.io/badge/-HTML-7F3ACE?style=flat&logo=HTML5"/>
 <img align="center" src="https://img.shields.io/badge/-CSS-7F3ACE?style=flat&logo=CSS3&logoColor=1572B6"/>
@@ -36,4 +37,3 @@
 </p>
 
   ![Snake animation](https://github.com/zaldef/zaldef/blob/output/github-contribution-grid-snake.svg)
-
