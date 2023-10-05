@@ -25,6 +25,6 @@
 <a href = "mailto:guilhermeroelli@gmail.com"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
 <a href = "https://www.linkedin.com/in/gui-roelli-a52584254/"><img src="https://img.icons8.com/fluent/48/000000/linkedin"/></a>
 </p>
-
+![snake gif](https://github.com/Zaldef/Zaldef/blob/output/github-contribution-grid-snake.svg)
   ![snake gif](https://github.com/zaldef/Zaldef/blob/output/github-contribution-grid-snake.gif)
   ![Snake animation](https://github.com/zaldef/zaldef/blob/output/github-contribution-grid-snake.svg)
