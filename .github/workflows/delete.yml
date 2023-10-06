@@ -1,0 +1,18 @@
+name: Delete Branch on PR Merge
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check if PR is merged
+      run: |
+        if [ "${{ github.event.pull_request.merged }}" = "true" ]; then
+          git fetch --prune
+          git push --delete origin ${{ github.event.pull_request.head.ref }}
+        fi
