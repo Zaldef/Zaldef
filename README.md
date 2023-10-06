@@ -3,7 +3,8 @@
 # Hi, I’m 🔰Zaldef🔰
 
 - I'm from a small town in São Paulo-Brazil 🌇 💚💛
-- I like rock music 🎵 like Queen and Beatles, or metal bands like iron maiden and AC/DC
+- I like rock music 🎵 like Queen and Beatles, or metal bands like iron maiden and AC/DC⚡
+- My favorite film styles are fantasy and science fiction, especially when focused on space themes 🌌
 - I’m currently studyng Computer engineering in PUC-Campinas 🏫, i'm in 3º Semester
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zaldef&count_private=true&show_icons=true&theme=midnight-purple&count_private=disable&card_width=400px&line_height=24)
