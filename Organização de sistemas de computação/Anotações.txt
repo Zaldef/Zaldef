@@ -1,0 +1,114 @@
+-Estrutura de um computador:
+	-CPU: 
+	-Memória: Registradores internos < Memória principal(RAM) < Memória secundaria(HDD & SDD) 
+---------------------------------------------------------------------------------------------------------------------------
+-Base diferentes para o numero 10:
+	1010b	(binario)			
+	12q 	(octal)			
+	10d 	(decimal)			
+	0Ah 	(hexa)
+---------------------------------------------------------------------------------------------------------------------------
+-Definições de variaveis:
+	DB 	(8 bits)	
+	DW 	(16 bits, 2 Bytes)	
+	DD	(2 Palavras, 4 Bytes)	
+	DQ	(4 Palavras, 8 Bytes)	
+	DT	(10 Bytes)
+---------------------------------------------------------------------------------------------------------------------------
+-Registradores X86
+	Registradores de dados:
+		AX	(Acumulador)
+		BX  (Base)
+		CX  (Contador)
+		DX  (Data)
+	Registradores de segmentos:
+		CS	(Code Segment) 
+		DS 	(Data Segment)
+		SS 	(Stack Segment)
+		ES 	(Extra Segment)
+	Registradores de indices e apontadores:
+		SI 	(Source Index)
+		DI  (Destination Index)
+		SP	(Stack Pointer)
+		BP	(Base Pointer)
+		IP	(Instruction Pointer)
+---------------------------------------------------------------------------------------------------------------------------
+-Flags:
+	CF	(Carry)	
+	ZF	(Zero)	
+	SF	(Signal)	
+	OF	(Overflow)	
+	PF	(Parity)	
+	AF	(Auxiliar)	
+	IF	(Identification)	
+	DF	(Direction)
+---------------------------------------------------------------------------------------------------------------------------
+-Comandos do X86: 
+	Destino(Registradores de dados(RD) e segmentos(RS0), posição de memoria(MEM))
+	Fonte(Registradores de dados(RD) e segmentos(RS0), posição de memoria(MEM) e constantes(CON)) 
+		MOV			- Ñ pode: RS X RS, MEM X MEM
+		XCHG 		- Pode RD X RD/MEM, MEM X RD
+		ADD/SUB		- Pode RD X RD/MEM/CON, MEM X RD/CON	AFETA TODOS OS FLAGS
+		ADC  		- ADD normal + CF
+		INC/DEC		- Destino: RD/MEM 						AFETA TODOS OS FLAGS, MENOS CF
+		MUL
+		DIV
+		NEG			- Destino & Fonte: RD/MEM 				AFETA TODOS OS FLAGS
+		NOP
+		LEA			- DX X MEM
+		CMP			- Compara RD X RD/MEM/CON, MEM X RD/CON
+		LOOP		- Volta para aonde indicar até CX for 0, auto DEC CX
+		JMP			- Jump incondicional
+		JXXX		- Ver seção de Jumps condicionais
+		SHL
+		SHR
+		SAL 
+		SAR
+		ROR
+		ROL
+		RCR
+		RCM
+		AND
+		OR 
+		XOR
+		NOT 
+---------------------------------------------------------------------------------------------------------------------------
+-Jumps condicionais:
+	Saltos Flags:
+		JC 		- Jump if Carry 		(CF=1)
+		JNC		- Jump if Not Carry 	(CF=0)
+		JZ 		- Jump if Zero			(ZF=1)
+		JNZ		- Jump if Not Zero		(ZF=0)
+		JO 		- Jump if Overflow 		(OF=1)
+		JNO		- Jump if Not Overflow	(OF=0)
+		JP 		- Jump if Parity 		(PF=1)
+		JNP		- Jump if Not Parity 	(PF=0)
+		JS 		- Jump if Sign 			(SF=1)
+		JNS		- Jump if Not Sign 		(SF=0)
+		JE 		- Jump if Equal			(ZF=0)
+		JNE 	- Jump if Not Equal		(ZF=1)
+	Saltos Ñ Sinalizados:
+		JA/JNBE 	- Jump if Above ou Jump if Not Below or Equal	(CF=0 e ZF=0)
+		JAE/JNB 	- Jump if Above or Equal ou Jump if Not Below	(CF=0)
+		JB/JNAE 	- Jump if Below ou Jump if Not Above or Equal	(CF=1)
+		JBE/JNA 	- Jump if Below or Equal ou Jump if Not Above	(CF=1 ou ZF=1)
+	Saltos Sinalizados:
+		JG/JNLE 	- Jump if Greater ou Jump if Not Less or Equal 	(ZF=0 e SF=OF)
+		JGE/JNB 	- Jump if Greater or Equal ou Jump if Not Less	(SF≠OF)
+		JL/JNGE 	- Jump if Less ou Jump if Not Greater or Equal	(SF≠OF)
+		JLE/JNG 	- Jump if Less or Equal ou Jump if Not Greater	(ZF=1 OU SF≠OF)
+---------------------------------------------------------------------------------------------------------------------------
+-Interrupts:
+	INT 10H:
+		-https://en.wikipedia.org/wiki/INT_10H
+	INT 16H:
+		-https://en.wikipedia.org/wiki/INT_16H
+	INT 21H:
+		-http://spike.scu.edu.au/~barry/interrupts.html#ah09
+		-https://en.wikipedia.org/wiki/DOS_API#Interrupt_vectors_used_by_DOS
+
+
+---------------------------------------------------------------------------------------------------------------------------
+- https://www.aldeid.com/wiki/X86-assembly
+- http://www2.ift.ulaval.ca/~marchand/ift17583/dosints.pdf
+
