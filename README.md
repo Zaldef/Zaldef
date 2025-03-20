@@ -26,6 +26,6 @@
 <p align="left">
 <a href = "https://www.instagram.com/roelli.exe/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
 <a href = "mailto:guilhermeroelli@gmail.com"><img src="https://img.icons8.com/fluent/48/000000/gmail.png"/></a>
-<a href = "https://www.linkedin.com/in/gui-roelli-a52584254/"><img src="https://img.icons8.com/fluent/48/000000/linkedin"/></a>
+<a href = "[https://www.linkedin.com/in/guilherme-roelli]"><img src="https://img.icons8.com/fluent/48/000000/linkedin"/></a>
 </p>
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=853dd8&height=120&section=footer"/>
