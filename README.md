@@ -3,8 +3,6 @@
 # Hi, I’m 🔰Zaldef🔰
 
 - I'm from a small town in São Paulo-Brazil 🌇 💚💛
-- I love music 🎵, but my favorite genre is rock and metal bands⚡
-- My favorite film styles are fantasy and science fiction, especially when focused on space themes 🌌
 - I’m currently studyng Computer engineering in PUC-Campinas 🏫, i'm in 6º Semester
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zaldef&count_private=true&show_icons=true&theme=midnight-purple&count_private=disable&card_width=400px&line_height=24)
